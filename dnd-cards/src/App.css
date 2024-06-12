@@ -1,0 +1,27 @@
+.outerContainer {
+    display: flex;
+  }
+
+  
+  
+  .leftSide {
+    width: 50%;
+    overflow-y: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: lightgrey;
+    justify-items: center;
+    border-right: 2px solid black;
+  }
+  
+  .rightSide {
+    width: 50%;
+    overflow-y: auto;
+    border-left: 2px solid #ccc;
+    display: grid;
+    grid-template-columns: 1fr;
+
+
+  }
+  
+  
